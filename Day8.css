@@ -1,0 +1,113 @@
+.slider{
+    height: 400px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-image: url(./‫image/haven.jpg.png);
+    /* background-color: antiquewhite; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    position: fixed;
+  
+
+}
+
+
+.slider1{
+    height: 400px;
+    width: 100%;
+    background-image: url(./‫image/palm_island-wallpaper-1680x1050.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slde 8s linear 1; 
+    position: absolute;
+   
+}
+
+@keyframes slde {
+
+    100%{
+          height: 400px;
+          width: 100%;
+           margin-left: 100%; 
+          position: sticky;
+          background-size: cover;
+          background-position: center;
+          /* background-image: url(./‫image/img1.jpg); */
+          position: absolute;
+          
+
+    }
+} 
+
+/* .slider2{
+    height: 400px;
+    width: 100%;
+    background-image: url(./‫image/armenia_syunik_khustup_k7_hayk_3-wallpaper-3840x1600.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slde2 12s linear 1; 
+    position: absolute;
+} */
+/* @keyframes slde2 {
+
+    100%{
+          height: 400px;
+          width: 100%;
+           margin-left: 100%; 
+          position: sticky;
+          background-size: cover;
+          background-position: center;
+          background-image: url(./‫image/hero.jpg);
+          position: absolute;
+          
+
+    } */
+
+/* .slider3{
+    height: 400px;
+    width: 100%;
+    background-image: url(./‫image/apple_mac_os_x_high_sierra-wallpaper-2560x1440.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slder3 2s linear 1; 
+    position: absolute;
+} */
+
+/* @keyframes slder3 {
+
+    100%{
+          height: 400px;
+          width: 100%;
+           margin-left: 100%; 
+          position: sticky;
+          background-size: cover;
+          background-position: center;
+          background-image: url(./‫image/hero.jpg);
+          position: absolute;
+          
+
+    }
+    } */
+/* 
+    @keyframes slder3 {
+
+        100%{
+              height: 400px;
+              width: 100%;
+               margin-left: 100%; 
+              position: sticky;
+    
+              background-size: cover;
+              background-position: center;
+              background-image: url(./‫image/electricity_infrared_photography-wallpaper-1920x1080.jpg);
+    
+              position: absolute;
+              
+    
+        }
+    }
+   */

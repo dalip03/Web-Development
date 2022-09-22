@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+}
+
+.back{
+    height: 100vh;
+    width: 100%;
+background-image: url(img1.jpg);
+background-size: cover;
+background-position: center;
+
+
+}
+@media only screen and (max-width: 950px){
+
+    .back{
+        height: 200vh;
+        width: 100%;
+        
+    }
+}
+.back2{
+    background-image: url(./‫image/back2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.back3{
+    background-image: url(./‫image/back.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+background-position: center;
+
+}
+@media only screen and (max-width: 550px){
+
+    .bac3k{
+        height: 200vh;
+        width: 100%;
+        
+    }
+.nav .list li{
+    font-size: 10px;
+      padding: 0px 20px 0px 5px ;
+    }
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+   background-color: rgb(202, 227, 227);
+   position: fixed;
+   
+}
+.nav .list li{
+ display: inline;
+ padding: 0px 50px 0px 15px ;
+ font-weight: 900;
+ float: right;
+ 
+}
+
+@media only screen and (max-width: 750px){
+
+    .back2{
+        height: 200vh;
+        width: 100%;
+        
+    }
+
+    .nav .list li{
+      font-size: 10px;
+      padding: 0px 20px 0px 5px ;
+
+
+    }
+}

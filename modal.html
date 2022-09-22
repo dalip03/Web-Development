@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <title>Modal</title>
+
+</head>
+<style>
+    /* .container{
+    height: 50vh;
+    border: 2px solid black;
+}
+.container .stn1{
+    margin-top: 200px;
+} */
+</style>
+ 
+<body>
+
+    <!--   Modal   -->
+
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mymodal">Submit</button>
+    <div class="modal fade" id="mymodal" role="dialog">
+
+        <div class="modal-dialog ">
+            <div class="modal-content ">
+
+                <div class="modal-header">
+                    <div class="modal-title"> successfull</div>
+                    <button class="close" data-dismiss="modal">X</button>
+                </div>
+
+                <div class="modal-body">
+                    You successfully submit your feedback :)
+                </div>
+                  
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-dismiss="modal">close</button>
+                </div>      
+            </div>
+        </div>
+    </div>
+
+    <!-- collapse -->
+
+    <div class="cllpse col-lg-6">
+
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#me">Collapse</button>
+        <div id="me" class="collapse">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis odit id temporibus enim.
+                Omnis molestiae ex aut voluptates ea rerum sunt, impedit eveniet quod consectetur, quas, sequi
+                accusamus aliquam?</p>
+        </div>
+
+</body>
+
+</html>
